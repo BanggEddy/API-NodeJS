@@ -13,8 +13,8 @@ const PostsModel = mongoose.model(
         },
         date: {
             type: Date,
-            default: Date.now, //A chaque fois quand il créera, elle prendre la date, l'heure de maintenant
-        }
+            default: Date.now, //A chaque fois quand il créera, elle prendra la date, l'heure de maintenant
+        },
     },
     "posts" //Dans quel table elle va s''incorporer
     
